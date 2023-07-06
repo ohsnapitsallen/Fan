@@ -20,3 +20,5 @@ class TestFan:
         print("Fan Color:", fan2.get_fancolor())
         print("Turned On?:", fan2.get_fanon())
 #Start the test program
+    if __name__ == '__main__':
+        main()
