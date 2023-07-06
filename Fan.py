@@ -23,3 +23,14 @@ class Fan:
     def get_fancolor(self):
         return self.__fancolor
 #Create setter methods
+    def set_fanspeed(self, fanspeed):
+        self.__fanspeed = fanspeed
+    
+    def set_fanon(self, fanon):
+        self.__fanon = fanon
+
+    def set_fanradius(self, fanradius):
+        self.__fanradius = fanradius
+
+    def set_fancolor(self, fancolor):
+        self.__fancolor = fancolor
